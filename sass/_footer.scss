@@ -1,0 +1,22 @@
+/* Este es el Partial de mi FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: #acba9d;
+    border: none;
+
+    .footer-social-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .icon {
+            width: 25px;
+            height: 25px;
+            margin: 5px;
+        
+        }
+    }
+
+
+}

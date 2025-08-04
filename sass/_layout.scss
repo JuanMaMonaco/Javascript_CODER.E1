@@ -1,0 +1,15 @@
+@import "variables";
+
+.web {
+    background-color: $prim-color;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.contenedor {
+    background-color: $second-color;
+    border: 1px solid brown;
+    margin: 10px;
+    padding: 20px;
+}
