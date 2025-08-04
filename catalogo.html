@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marisol Cañas - Contacto</title>
-    <meta name="description" content="Contacta con Marisol Cañas para conseguir turnos, productos o mas informacion">
+    <title>Marisol Cañas - Catalogo de Productos</title>
+    <meta name="description" content="Conoce nuestros catalogo de productos">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script type="module" src="./index.js" defer></script>
 </head>
+
 
 <body class="web">
     <!-- encabezado -->
@@ -39,10 +41,10 @@
                             de Mi</a>
                         <a class="nav-link" href="./tratamientos.html"
                             aria-label="Ir a la página de Nuestros Tratamientos">Nuestros Tratamientos</a>
-                        <a class="nav-link" href="./catalogo.html"
-                            aria-label="Ir a la página de Catalogo de Productos">Catalogo de Productos</a>
-                        <a class="nav-link active" aria-current="page" href="./contacto.html"
-                            aria-label="Ir a la página de Contacto">Contacto</a>
+                        <a class="nav-link active" aria-current="page" href="./catalogo.html"
+                            aria-label="Ir a la página de Catalogo de Productos">Catalogo de
+                            Productos</a>
+                        <a class="nav-link" href="./contacto.html" aria-label="Ir a la página de Contacto">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -50,36 +52,29 @@
     </header>
 
     <!-- contenido principal -->
-    <main class="contenedor-formulario">
-        <h3 class="contacto">Escribenos, queremos escuchar tus dudas y comentarios.</h3>
-        <form class="formulario" action="" method="">
-            <fieldset class="campo">
-                <legend>Datos personales</legend>
-                <label class="label1" for="apellidoynombre"> Apellido y Nombre: <input id="apellidoynombre" type="text"
-                        required> </label>
-                <label class="label1" for="edad">Ingresa tu Edad:<input type="number" min="15" max="120" id="edad">
-                </label>
-                <label class="label1" for="email">Ingresa tu Email: <input id="email" type="email" required></label>
-            </fieldset>
-
-            <fieldset class="campo">
-                <legend>¿Que deseas saber?</legend>
-                <label for="turno"><input type="checkbox" id="turno" name="turno"> Solicitar un Turno </label>
-                <label for="info"><input type="checkbox" id="info" name="info"> Solicitar Informacion </label>
-                <label for="catalogo"><input type="checkbox" id="catalogo" name="catalogo"> Solicitar Precios de
-                    Catalogo </label>
-            </fieldset>
-
-            <fieldset class="campo">
-                <legend>Comentarios:</legend>
-                <label for="comentarios"><textarea name="comentarios" class="comentarios" id="comentarios" rows="6"
-                        cols="60" placeholder="Escribe tus comentarios aqui..."></textarea></label>
-            </fieldset>
-
-            <input class="submit" type="submit" value="ENVIAR">
-
-
-        </form>
+    <main class="catalogo">
+        <div class="galeria">
+            <div class="item"><img src="../imagenes/Catalogo/anti-agecomplex.jpg" alt="anti-agecomplex">
+                <h5>Anti-Age Complex</h5>
+            </div>
+            <div class="item"><img src="../imagenes/Catalogo/antioxidantesconvitaminac.jpg"
+                    alt="antioxidantesconvitaminac">
+                <h5>Antioxidantes con Vitamina C</h5>
+            </div>
+            <div class="item"><img src="../imagenes/Catalogo/bioserumconniacinamida.jpg" alt="bioserumconniacinamida">
+                <h5>Bioserum con Niacinamida</h5>
+            </div>
+            <div class="item"><img src="../imagenes/Catalogo/conncentradoconcelulasmadrederosaalpina.jpg"
+                    alt="conncentradoconcelulasmadrederosaalpina">
+                <h5>Concentrado con Celulas Madre de Rosa Alpina</h5>
+            </div>
+            <div class="item"><img src="../imagenes/Catalogo/geldelimpieza.jpg" alt="geldelimpieza">
+                <h5>Gel de Limpieza</h5>
+            </div>
+            <div class="item"><img src="../imagenes/Catalogo/lechedelimpieza.jpg" alt="lechedelimpieza">
+                <h5>Leche de Limpieza</h5>
+            </div>
+        </div>
     </main>
 
 
